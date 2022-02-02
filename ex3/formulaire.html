@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>inscription en licence</title>
+</head>
+<body>
+<h2 align="centre">Inscription en licence</h2>
+<form action="video.html"method="post"name="nom">
+<fieldset> <legend>information personnelle</legend>
+Votre nom:<input type="text"> 
+</br> Votre prenom :<input type="text">
+</br> Votre age :<input type="number"/>
+</br>votre adresse:<textarea rows=5 cols=40></textarea> 
+</br>Votre date de naissance : <input type="date"/>
+</br>Mot de passe : <input type="password"required>
+</br>Répeter votre mot de passe : <input type="password"required> 
+</br>votre @mail: <input type="email"/> 
+</br>votre site: <input type="url"/>
+</fieldset>
+<fieldset>
+<legend>Gestion des groupes et des options</legend>
+votre groupe: <input type="radio"value="Groupe 1"checked="Groupe 1">Groupe 1<input type="radio"value="Groupe 2">groupe 2<input type="radio"value="Groupe 3">Groupe 3
+</br>Numero de carte d'etudiant: <input type="text">
+</br> choisissez les options que vous désirez<select name="option"size="2"> <option value="and">android <option value="html">Html5 <option value=".Net">.Net 
+</select>
+<input type="text"pattern="[I][N][S][A][T][0-9]{4}">
+</fieldset>
+<a href="video.html"><input type="submit"value="valider" ></a>
+<input type="reset"value="reinisialiser" >
+</body>
+</html>
